@@ -1,11 +1,8 @@
-soma = 0
+numeros = []
 
 while True:
-    numero = float(input('Escreva um numero (0 para sair): '))
-
+    numero = int(input("Digite um número: "))
     if numero == 0:
-        break
-    elif numero > 0:
-        soma = soma + numero
-
-    print(soma)
+        break 
+    numeros.append(numero)
+soma = sum(numeros)
