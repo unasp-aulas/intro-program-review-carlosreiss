@@ -10,6 +10,3 @@ def main(cargo, salario):
         return -1
 
     return salario + aumento
-
-
-# print(main('junior', 1000))
